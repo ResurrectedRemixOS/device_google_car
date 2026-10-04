@@ -4,7 +4,7 @@
 #
 
 # Inherit some common stuff
-$(call inherit-product, vendor/lineage/config/common_car.mk)
+$(call inherit-product, vendor/rr/config/common_car.mk)
 
 # Inherit device configuration
 DEVICE_CODENAME := tangorpro
